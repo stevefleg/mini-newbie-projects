@@ -15,3 +15,10 @@
 #Create a currency.py program that asks the user for the amount they have in pesos, soles, and reais and calculates the total in USD.
 
 #Make sure to Google the current exchange rates for pesos, soles, and reais!
+# Write code below 💖
+
+p = (int(input("What do you have left in peses? ")))
+s = (int(input("What do you have left in soles? ")))
+r = (int(input("What do you have left in reais? ")))
+d = p*0.00025 + s*0.28 + r*0.18
+print(d)
